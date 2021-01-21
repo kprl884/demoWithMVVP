@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.Pin0Fragment">
+
+        <TextView
+            android:id="@+id/pin_one"
+            app:layout_constraintEnd_toStartOf="@id/pin_1_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="@string/pin_one"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/pin_1_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/pin_one"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/pin_one"
+            app:layout_constraintTop_toTopOf="@id/pin_one"
+             />
+
+        <TextView
+            android:id="@+id/pin_two"
+            app:layout_constraintEnd_toStartOf="@id/pin_2_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="@string/pin_two"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pin_one" />
+
+        <ImageView
+            android:id="@+id/pin_2_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/pin_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/pin_two"
+            app:layout_constraintTop_toTopOf="@id/pin_two"
+            />
+
+        <TextView
+            android:id="@+id/pin_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@id/pin_3_iv"
+            android:layout_margin="30dp"
+            android:text="@string/pin_three"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pin_two" />
+
+        <ImageView
+            android:id="@+id/pin_3_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/pin_three"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/pin_three"
+            app:layout_constraintTop_toTopOf="@id/pin_three"
+             />
+
+        <TextView
+            android:id="@+id/pin_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:layout_constraintEnd_toStartOf="@id/pin_4_iv"
+            android:text="@string/pin_four"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pin_three"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <ImageView
+            android:id="@+id/pin_4_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/pin_four"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/pin_four"
+            app:layout_constraintTop_toTopOf="@id/pin_four"
+             />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

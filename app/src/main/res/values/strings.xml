@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hextechgreen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pin_one">PIN1</string>
+    <string name="pin_two">PIN2</string>
+    <string name="pin_three">PIN3</string>
+    <string name="pin_four">PIN4</string>
+</resources>
