@@ -16,7 +16,7 @@ class PinViewModel : ViewModel() {
 
     fun getDataFromAPI() {
         Log.d("alp","viewmodel içinde")
-        pinAPIService.getData()
+        mutablePin.value = pinAPIService.getData()
         Log.d("alp","murablePin = ${mutablePin.value }")
     }
     
