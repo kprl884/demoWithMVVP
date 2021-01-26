@@ -1,4 +1,4 @@
-package com.example.hextechgreen.application
+package com.example.hextechgreen.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -94,6 +94,15 @@
             app:layout_constraintTop_toTopOf="@id/pin_four"
              />
 
+        <TextView
+            android:id="@+id/countText"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/pin_four"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>
