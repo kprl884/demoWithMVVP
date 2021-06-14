@@ -1,6 +1,10 @@
 
 # CounterApp--Retrofit-and-MVVM
 
+Model-view-viewmodel inheritance is used in this project.
+The data was pulled from api with retrofit.
+Observed in the viewmodel and updated the pins accordingly.
+
 General Info
 
 • Every 15 seconds fetch the given endpoint
